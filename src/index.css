@@ -37,9 +37,8 @@ body {
 }
 
 .container {
-  max-width: 1194px;
+  max-width: 1200px;
   margin: auto;
-  padding: 0 15px
 }
 
 .primary-button {
@@ -64,4 +63,10 @@ body {
 
 .primary-button:active {
   transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
 }
