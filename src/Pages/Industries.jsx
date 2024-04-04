@@ -1,4 +1,5 @@
 import React from "react";
+import ClientsSection from "../Components/Industries/ClientsSection";
 import FeaturesList from "../Components/Industries/FeaturesList";
 import IndustriesPageCTA from "../Components/Industries/IndustriesPageCTA";
 import IndustriesPartner from "../Components/Industries/IndustriesPartner";
@@ -18,6 +19,7 @@ const IndustriesPage = () => {
       <IndustriesWeServe />
       <FeaturesList />
       <IndustriesPageCTA ctaText={ctaText} />
+      <ClientsSection />
     </>
   );
 };
