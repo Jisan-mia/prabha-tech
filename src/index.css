@@ -8,25 +8,60 @@
 
 body {
   font-family: "Inter", sans-serif;
-  overflow: auto; /* Enable scrolling */
+  overflow: auto;
+  /* Enable scrolling */
 }
 
 
 
 ::-webkit-scrollbar {
-  width: 0.5rem; /* Adjust the width of the thumb as needed */
+  width: 0.5rem;
+  /* Adjust the width of the thumb as needed */
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; /* Set the track background color to transparent */
+  background: transparent;
+  /* Set the track background color to transparent */
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2); /* Set the thumb background color */
-  border-radius: 0.25rem; /* Optional: Add border-radius for the thumb */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Set the thumb background color */
+  border-radius: 0.25rem;
+  /* Optional: Add border-radius for the thumb */
 }
 
 /* Hide scrollbar buttons */
 ::-webkit-scrollbar-button {
   display: none;
+}
+
+.container {
+  max-width: 1194px;
+  margin: auto;
+  padding: 0 15px
+}
+
+.primary-button {
+  border: none;
+  outline: none;
+  background: #1468FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 11px 26px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease-in;
+}
+
+.primary-button:hover {
+  background: hsla(218, 97%, 53%, 0.8);
+}
+
+.primary-button:active {
+  transform: scale(0.98);
 }
