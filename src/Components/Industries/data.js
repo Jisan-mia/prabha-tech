@@ -175,3 +175,74 @@ export const allTestimonials = [
       "We chose appinventiv to build our financial literacy and money management app from start to finish. From the first call, we were very impressed with appinventiv’s professionalism, expertise, and commitment to delivering top-notch results. Their team was very responsive and was always available to answer any questions we had. Their developers were extremely talented and delivered an amazing final product that exceeded our expectations. Our app is now live, and the feedback that we are receiving from users is fantastic. So, i highly recommend appinventiv to anyone looking for a partner to bring their app ideas to life.",
   },
 ];
+
+export const allIndustriesAcrossGlobes = [
+  {
+    id: 1,
+    name: "JobGet",
+    logo: "/public/images/compnay/americas-jobget.svg",
+    continent: "america",
+  },
+  {
+    id: 2,
+    name: "Google",
+    logo: "/public/images/compnay/americas-google-logo.svg",
+    continent: "america",
+  },
+  {
+    id: 3,
+    name: "ECCO",
+    logo: "/public/images/compnay/ecco-logo.svg",
+    continent: "europe",
+  },
+  {
+    id: 4,
+    name: "Rodeo",
+    logo: "/public/images/compnay/rodeo-realty.svg",
+    continent: "europe",
+  },
+  {
+    id: 5,
+    name: "Ikea",
+    logo: "/public/images/compnay/middle-east-ikea.svg",
+    continent: "middle-east",
+  },
+  {
+    id: 6,
+    name: "Addidas",
+    logo: "/public/images/compnay/middle-east-adidas.svg",
+    continent: "middle-east",
+  },
+  {
+    id: 7,
+    name: "locksmart",
+    logo: "/public/images/compnay/austra-locksmart.svg",
+    continent: "australia",
+  },
+  {
+    id: 8,
+    name: "sensor",
+    logo: "/public/images/compnay/austra-sensor-logo.svg",
+    continent: "australia",
+  },
+  {
+    id: 9,
+    name: "cars24",
+    logo: "/public/images/compnay/india-cars24.svg",
+    continent: "indian",
+  },
+  {
+    id: 10,
+    name: "india mart",
+    logo: "/public/images/compnay/india-mart-logo.svg",
+    continent: "india",
+  },
+];
+
+export const allContinent = [
+  { id: "america", label: "America" },
+  { id: "europe", label: "Europe" },
+  { id: "middle-east", label: "Middle East" },
+  { id: "australia", label: "Australia" },
+  { id: "india", label: "India" },
+];

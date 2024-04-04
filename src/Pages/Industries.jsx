@@ -1,6 +1,7 @@
 import React from "react";
 import ClientsSection from "../Components/Industries/ClientsSection";
 import FeaturesList from "../Components/Industries/FeaturesList";
+import IndustriesAcrossGlobe from "../Components/Industries/IndustriesAcrossGlobe";
 import IndustriesPageCTA from "../Components/Industries/IndustriesPageCTA";
 import IndustriesPartner from "../Components/Industries/IndustriesPartner";
 import IndustriesWeServe from "../Components/Industries/IndustriesWeServe";
@@ -22,6 +23,7 @@ const IndustriesPage = () => {
       <IndustriesPageCTA ctaText={ctaText} />
       <ClientsSection />
       <IndustriesTestimonials />
+      <IndustriesAcrossGlobe />
     </>
   );
 };
