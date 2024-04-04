@@ -6,7 +6,7 @@ const FeaturesItem = ({ item }) => {
       <div className="img-cont">
         <img src={item.image} alt="" />
       </div>
-
+        <div className="feature-list-item-number">0{item.id}</div>
       <div className="features-list-item-content">
         <div className="titles">
           <div className="titles__image-cont">
