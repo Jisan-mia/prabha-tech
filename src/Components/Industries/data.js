@@ -246,3 +246,14 @@ export const allContinent = [
   { id: "australia", label: "Australia" },
   { id: "india", label: "India" },
 ];
+
+export const allAwards = [
+  { id: 1, awardImg: "/public/images/award/award-1.webp" },
+  { id: 2, awardImg: "/public/images/award/award-2.webp" },
+  { id: 3, awardImg: "/public/images/award/award-1.webp" },
+  { id: 4, awardImg: "/public/images/award/award-2.webp" },
+  { id: 5, awardImg: "/public/images/award/award-1.webp" },
+  { id: 6, awardImg: "/public/images/award/award-2.webp" },
+  { id: 7, awardImg: "/public/images/award/award-1.webp" },
+  { id: 8, awardImg: "/public/images/award/award-2.webp" },
+];

@@ -1,4 +1,5 @@
 import React from "react";
+import Awards from "../Components/Industries/Awards";
 import ClientsSection from "../Components/Industries/ClientsSection";
 import FeaturesList from "../Components/Industries/FeaturesList";
 import IndustriesAcrossGlobe from "../Components/Industries/IndustriesAcrossGlobe";
@@ -24,6 +25,7 @@ const IndustriesPage = () => {
       <ClientsSection />
       <IndustriesTestimonials />
       <IndustriesAcrossGlobe />
+      <Awards />
     </>
   );
 };
