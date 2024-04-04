@@ -11,8 +11,7 @@ const IndustriesWeServe = () => {
           <p>
             Delivering value to multiple industries, we innovate
             industry-specific technologies to scale
-            <br /> and optimize operations and
-            bottom line.
+            <br /> and optimize operations and bottom line.
           </p>
         </div>
         <div className="served__industries-list">
