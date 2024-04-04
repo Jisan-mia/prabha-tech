@@ -41,6 +41,10 @@ body {
   margin: auto;
 }
 
+.text__gradient {
+  color: #0363ff;
+}
+
 .primary-button {
   border: none;
   outline: none;
