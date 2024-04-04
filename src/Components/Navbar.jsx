@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "../Components/Navbar.css";
 import logo from "../assets/images/newlogo.png";
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="menu">
             <Link to="/about">About</Link>
             <Link>Services</Link>
-            <Link>Industries</Link>
+            <Link to='/industries'>Industries</Link>
             <Link>Portfolio</Link>
             <Link>Pesoureces</Link>
             <button>Contact us</button>
