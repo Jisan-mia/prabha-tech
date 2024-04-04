@@ -1,0 +1,29 @@
+.other__portfolio {
+  background: black;
+  padding: 60px 0;
+}
+
+.other__portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1rem;
+}
+
+.other__portfolio-item {
+  padding: 30px;
+  border-radius: 20px;
+  display: grid;
+  gap: 1.2rem;
+
+}
+
+.other__portfolio-item:hover {
+  background-color: #141414;
+}
+
+.other__portfolio-item p {
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 23.4px;
+}

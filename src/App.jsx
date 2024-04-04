@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Hero from './Pages/Hero';
 import IndustriesPage from './Pages/Industries';
+import PortfolioPage from './Pages/Portfolio';
 
 const App = () => {
 
@@ -17,6 +18,8 @@ const App = () => {
           <Route path='/' element={<Hero/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/industries' element={<IndustriesPage/>} />
+          <Route path='/portfolio' element={<PortfolioPage/>} />
+
         </Routes>
       </BrowserRouter>
   )

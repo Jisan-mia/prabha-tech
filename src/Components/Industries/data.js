@@ -257,3 +257,253 @@ export const allAwards = [
   { id: 7, awardImg: "/public/images/award/award-1.webp" },
   { id: 8, awardImg: "/public/images/award/award-2.webp" },
 ];
+
+export const allPortfolioLists = [
+  {
+    id: 1,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: true,
+  },
+  {
+    id: 2,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: false,
+  },
+
+  {
+    id: 3,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: true,
+  },
+  {
+    id: 4,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: false,
+  },
+
+  {
+    id: 5,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: true,
+  },
+
+  {
+    id: 6,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: false,
+  },
+  {
+    id: 7,
+    logo: "/public/images/portfolio-item-logo.svg",
+    image: "/public/images/portfolio-item-2.webp",
+    description:
+      "Deploying IoT-powered kiosks integrated with a custom ERP solution, we enhanced IKEA’s customer onboarding, product exploration, and data-driven marketing.",
+    portfolioFeature: [
+      {
+        title: "7+",
+        detail: "IKEA Stores Deployed The Solution",
+      },
+      {
+        title: "#1",
+        detail: "Marketing Asset for IKEA Stores",
+      },
+    ],
+    isLeftImage: true
+  },
+];
+
+export const allPortfolioProfit = [
+  {
+    id: 1,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+  {
+    id: 2,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+  {
+    id: 3,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+  {
+    id: 4,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+  {
+    id: 5,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+  {
+    id: 6,
+    logo: "/public/images/portfolio-item-logo.svg",
+    profitList: [
+      {
+        title: "50%",
+        detail: "Higher Orders",
+      },
+      {
+        title: "4.7",
+        detail: "Pay/App store Rating",
+      },
+    ],
+  },
+];
+
+export const allOtherPortfolio = [
+  {
+    id: 1,
+    logo: "/public/images/other-portfolio-logo.svg",
+    image: "/public/images/other-portfolio.png",
+    description:
+      "A fully-functional mobile app with an extensible and scalable architecture paved the way for a speedy and glitch-free user experience.",
+  },
+  {
+    id: 2,
+    logo: "/public/images/other-portfolio-logo.svg",
+    image: "/public/images/other-portfolio.png",
+    description:
+      "A fully-functional mobile app with an extensible and scalable architecture paved the way for a speedy and glitch-free user experience.",
+  },
+  {
+    id: 3,
+    logo: "/public/images/other-portfolio-logo.svg",
+    image: "/public/images/other-portfolio.png",
+    description:
+      "A fully-functional mobile app with an extensible and scalable architecture paved the way for a speedy and glitch-free user experience.",
+  },
+  {
+    id: 4,
+    logo: "/public/images/other-portfolio-logo.svg",
+    image: "/public/images/other-portfolio.png",
+    description:
+      "A fully-functional mobile app with an extensible and scalable architecture paved the way for a speedy and glitch-free user experience.",
+  },
+];

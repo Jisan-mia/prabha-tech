@@ -1,0 +1,49 @@
+.portfolio__hero1 {
+  background: black;
+
+}
+
+.bg-line {
+  background: url('/public/images/hero-1.webp') no-repeat;
+  background-size: 100%;
+  height: 855px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.portfolio__hero1-content {
+  padding: 255px 0 105px;
+
+}
+
+.portfolio__hero1-titles h1 {
+  font-size: 4.8vw;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fff;
+  margin: 25px 50px;
+  justify-content: center;
+  line-height: 1;
+  text-align: center;
+}
+
+.portfolio__hero1-titles h2 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio__hero1-titles p {
+  font-size: 20px;
+  max-width: 838px;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}

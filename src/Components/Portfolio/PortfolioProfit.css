@@ -1,0 +1,76 @@
+.portfolio__profit {
+  background-color: black;
+  padding: 100px 0;
+}
+
+.portfolio__profit-content {
+  display: grid;
+}
+
+.portfolio__profit-content h2 {
+  font-size: 45px;
+  line-height: 58.5px;
+  margin-bottom: 45px;
+  letter-spacing: -.03em;
+  color: white;
+}
+
+.portfolio__profit-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 300px;
+  grid-auto-rows: 300px;
+  gap: 1rem;
+}
+
+.portfolio__profit-list-item {
+  border-radius: 11px;
+  padding: 46px 25px 44px;
+  height: 100%;
+  background-color: #141414;
+  min-height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+.portfolio__profit-list-result {
+  display: flex;
+  align-items: stretch;
+  color: white;
+}
+
+.portfolio__profit-list-result-item {
+  padding-right: 30px;
+  margin-right: 40px;
+  border-right: 1px solid #b3b3b3;
+}
+
+.portfolio__profit-list-result-item h2 {
+  color: #fa7e6a;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.portfolio__profit-list-result-item p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 16.5px;
+}
+
+.portfolio__profit-list-result-item:last-child {
+  padding-right: 0;
+  margin-right: 0;
+  border: none;
+}
+
+.portfolio__profit-list-item:hover .portfolio__profit-list-result-item h2 {
+  color: white
+}
+
+.portfolio__profit-list-item:hover {
+  background-color: #1163fb;
+}
