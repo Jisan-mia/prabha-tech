@@ -6,7 +6,7 @@ const ClientsScrollItem = () => {
       {/* left side */}
       <div className="client__list-item-left">
         <div>
-          <img src="/public/images/client-logo-1.svg" alt="" />
+          <img src="/images/client-logo-1.svg" alt="" />
         </div>
         <p>
           We developed a voice-assistant app optimized for bluetooth wearables
@@ -28,7 +28,7 @@ const ClientsScrollItem = () => {
       </div>
       {/* right side */}
       <div className="client__list-item-right">
-        <img src="/public/images/client-1.webp" alt="" />
+        <img src="/images/client-1.webp" alt="" />
       </div>
     </div>
   );

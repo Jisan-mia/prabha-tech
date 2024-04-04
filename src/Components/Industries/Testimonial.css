@@ -1,5 +1,5 @@
 .testimonials {
-  background: url('/public/images/testimonial-bgmain.webp') no-repeat;
+  background: url('/images/testimonial-bgmain.webp') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -7,7 +7,7 @@
 .testimonials__wrapper {
   padding: 8rem 0;
   margin-top: -1px;
-  background: url('/public/images/testimonial-bg.webp') no-repeat;
+  background: url('/images/testimonial-bg.webp') no-repeat;
   background-position: center;
   background-size: cover;
 }

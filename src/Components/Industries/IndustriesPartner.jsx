@@ -18,16 +18,16 @@ const IndustriesPartner = () => {
         </div>
         <div className="partners__left-recognitions">
           <div className='partners__left-recognitions-item'>
-            <img src="/public/images/partner-1.svg" alt="" />
+            <img src="/images/partner-1.svg" alt="" />
             <p>App Development Company of the Year</p>
           </div>
           <div className='partners__left-recognitions-item'>
-            <img src="/public/images/partner-2.svg" alt="" />
+            <img src="/images/partner-2.svg" alt="" />
 
             <p>Tech Company of the Year</p>
           </div>
           <div className='partners__left-recognitions-item'>
-            <img src="/public/images/partner-3.svg" alt="" />
+            <img src="/images/partner-3.svg" alt="" />
 
             <p>India’s Growth Champions in IT</p>
           </div>
@@ -36,7 +36,7 @@ const IndustriesPartner = () => {
 
       {/* right side */}
       <div className="partners__right">
-        <img src="/public/images/partner.webp" alt="" />
+        <img src="/images/partner.webp" alt="" />
       </div>
      </div>
     </div>
