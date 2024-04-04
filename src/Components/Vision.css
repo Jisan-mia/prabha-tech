@@ -1,0 +1,125 @@
+.vision {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.vision .visoonhed {
+    padding: 5vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+.vision .visoonhed h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+
+
+.visionbox {
+    width: 100%;
+}
+
+.visionbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3vw 6vw;
+}
+
+
+.boxvision {
+    padding: 3vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #424141;
+    border-right: 1px solid #424141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxvision:nth-child(4) {
+    border-right: none;
+}
+
+.boxvision:nth-child(8) {
+    border-right: none;
+}
+
+.boxvision:nth-child(12) {
+    border-right: none;
+}
+.boxvision:nth-child(13) {
+    border-bottom: none;
+}
+.boxvision:nth-child(14) {
+    border-bottom: none;
+}
+.boxvision:nth-child(15) {
+    border-bottom: none;
+}
+.boxvision:nth-child(16) {
+    border-right: none;
+    border-bottom: none;
+}
+
+.boxvision .iconbox {
+    width: 3vw;
+    height: 5vh;
+    background-color: #252329;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+
+.combox {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 6vw;
+}
+
+.comboxleft{
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.comboxright{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.comboxrightbox {
+    width: 16vw;
+    height: 17vw;
+    background-color: #171717;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #383737;
+}
+
+.comboxleft h1{
+    font-size: 3vw;
+    font-weight: 400;
+}

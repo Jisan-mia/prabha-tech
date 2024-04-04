@@ -1,0 +1,90 @@
+.slider {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.sliderhed {
+    width: 70%;
+    padding: 6vw;
+}
+
+.sliderhed h1 {
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.sliderbox {
+    margin-left: 6vw;
+    padding: 3vw 0;
+}
+
+.slibox {
+    flex: 0 0 auto;
+    flex-basis: 25%;
+    transition: transform 0.5s ease;
+    margin: 0px 0;
+    box-sizing: border-box;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.conslider {
+    width: 94%;
+    height: 99%;
+    background-color: rgb(23,23,23);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vw;
+    box-shadow: rgba(255, 255, 255, 0.02) 0px 1px 3px 0px, rgba(2255, 255, 255, 0.15) 0px 0px 0px 1px;
+}
+
+.conslider img {
+    width: 13vw;
+    height: 10vw;
+}
+
+.conslider .ctext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.conslider .ctext h2{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 300;
+    width: 70%;
+}
+.cbtn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    margin-top: 2vw;
+    padding: 0 1vw;
+}
+
+.cbtn button {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cbtn button:hover {
+    background-color: #126bfb;
+    border: 1px solid #126bfb;
+}

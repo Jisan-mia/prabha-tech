@@ -1,0 +1,199 @@
+
+.abouthed {
+    width: 100%;
+    height: 100vh;
+    background-image: url("//appinventiv.com/wp-content/themes/twentynineteen-child/css/../images/career-img1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 6vw;
+}
+
+.abouthed h1 {
+  font-size: 4vw;
+  color: #fff;
+}
+
+.textabout {
+  padding: 8vw 6vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+}
+
+.textfrist {
+    display: flex;
+    justify-content: space-between;
+}
+.textfrist p{
+    width: 50%;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 2vw;
+}
+.textfrist h1{
+    font-size: 2.4vw;
+}
+
+.textlast {
+    display: flex;
+    justify-content: space-between;
+}
+.textlast p{
+    width: 50%;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 2vw;
+}
+.textlast h1{
+    font-size: 2.4vw;
+}
+
+.histor {
+    width: 100%;
+    background-color: #0387f4;
+    color: #fff;
+    padding: 2vw 6vw;
+}
+
+.historhed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.historhed h4{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+.historhed h1{
+    font-size: 12vw;
+    opacity: 0.2;
+}
+
+.list{
+    padding: 0vw 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-top: -50px;
+}
+.list .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list .items .yesr{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.list .items .yesr p{
+    font-size: 2vw;
+}
+
+.list .items h5{
+    width: 70%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    line-height: 2vw;
+}
+
+.yearimg img {
+    width: 450px;
+    height: 350px;
+}
+
+.itemborder {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.itembtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.itembtn button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    height: 2vw;
+}
+
+.worklife {
+    width: 100%;
+    padding: 4vw 6vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.worklifehed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.worklifehed h1{
+    font-size: 3vw;
+    font-weight: 500;
+}
+.worklifehed h1:nth-child(2) {
+    margin-right: -100px;
+}
+.worklifehed h1 span{
+    font-weight: bold;
+}
+
+ .worklifeheditem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5vw;
+ }
+
+ .boxitems {
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    margin-bottom: 6vw;
+ }
+
+.boxtext {
+    width: 50%;
+}
+ .boxitems img {
+    width: 4vw;
+ }
+
+ .boxitems:nth-child(1){
+    border-right: 1px solid #000;
+ }
+ .boxitems:nth-child(2){
+    border-right: 1px solid #000;
+ }
+ .boxitems:nth-child(4){
+    border-right: 1px solid #000;
+ }
+ .boxitems:nth-child(5){
+    border-right: 1px solid #000;
+ }
+ .boxitems:nth-child(7){
+    border-right: 1px solid #000;
+ }

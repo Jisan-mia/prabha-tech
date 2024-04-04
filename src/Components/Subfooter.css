@@ -1,0 +1,45 @@
+.subfooter {
+    width: 100%;
+    padding: 4vw 6vw;
+    background-color: #15151f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.subtop {
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+}
+.subhed {
+    line-height: 1.6vw;
+}
+.subimg img{
+    width: 8vw;
+}
+.dubborder {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.subitem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subitem a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ssocile {
+    display: flex;
+    gap: 2vw;
+}
+
+.ssocile a {
+    font-size: 1.5vw;
+}

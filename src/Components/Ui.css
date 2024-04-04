@@ -1,0 +1,116 @@
+.ui{
+    /* padding: 3vw 6vw; */
+    background-color: #000;
+    color: #fff;
+}
+
+
+.uihed  {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 3vw 6vw;
+}
+.uihed h1{
+    font-size: 3.1vw;
+    width: 80%;
+    font-weight: 400;
+}
+.uihed button{
+    width: 12vw;
+    height: 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1vw;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.uihed button:hover{
+    background-color: #126bfb;
+    border: 1px solid #126bfb;
+}
+
+.uicards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+    padding: 3vw 6vw;
+}
+
+.card {
+    padding: 3vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(11,11,11);
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.02) 0px 1px 3px 0px, rgba(2255, 255, 255, 0.15) 0px 0px 0px 1px;
+}
+
+.card:hover{
+    background-color: #333;
+}
+
+.card img{
+    width: 1.8vw;
+}
+.card h2{
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+.cpmpaney {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+.comhed {
+    padding: 5vw 6vw;
+    width: 70%;
+}
+
+.comhed h1{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.companeybox {
+    padding: 0 6vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1vw;
+}
+
+
+
+.comimg {
+    gap: 1.5vw;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    height: 100px;
+    cursor: pointer;
+}
+
+.comimg img {
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.comimg:hover img {
+    filter: none;
+}

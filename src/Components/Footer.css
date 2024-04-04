@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    padding: 6vw;
+    background-color: #1d1d25;
+    color: #fff;
+}
+
+.footeritem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footeritem .gap {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.listitem{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+.listitem a{
+   text-decoration: none;
+   color: #fff;
+}
