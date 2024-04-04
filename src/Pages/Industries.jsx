@@ -4,6 +4,7 @@ import FeaturesList from "../Components/Industries/FeaturesList";
 import IndustriesPageCTA from "../Components/Industries/IndustriesPageCTA";
 import IndustriesPartner from "../Components/Industries/IndustriesPartner";
 import IndustriesWeServe from "../Components/Industries/IndustriesWeServe";
+import IndustriesTestimonials from "../Components/Industries/Testimonials";
 
 const IndustriesPage = () => {
   const ctaText = (
@@ -20,6 +21,7 @@ const IndustriesPage = () => {
       <FeaturesList />
       <IndustriesPageCTA ctaText={ctaText} />
       <ClientsSection />
+      <IndustriesTestimonials />
     </>
   );
 };

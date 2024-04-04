@@ -139,3 +139,39 @@ export const allFeaturesList = [
       "We develop software for the event management industry allowing users to manage their events on the go in real-time.",
   },
 ];
+
+
+export const allTestimonials = [
+  {
+    id: 1,
+    name: "Jane Doe",
+    title: "Co-founder and CEO",
+    image: "/public/images/testimonial-1.svg",
+    message:
+      " We chose appinventiv to build our financial literacy and money management app from start to finish. From the first call, we were very impressed with appinventiv’s professionalism, expertise, and commitment to delivering top-notch results. Their team was very responsive and was always available to answer any questions we had. Their developers were extremely talented and delivered an amazing final product that exceeded our expectations. Our app is now live, and the feedback that we are receiving from users is fantastic. So, i highly recommend appinventiv to anyone looking for a partner to bring their app ideas to life.",
+  },
+  {
+    id: 2,
+    name: "Mr. Wick",
+    title: "CTO at XYZ",
+    image: "/public/images/testimonial-1.svg",
+    message:
+      " We chose appinventiv to build our financial literacy and money management app from start to finish. From the first call, we were very impressed with appinventiv’s professionalism, expertise, and commitment to delivering top-notch results. Their team was very responsive and was always available to answer any questions we had. Their developers were extremely talented and delivered to bring their app ideas to life.",
+  },
+  {
+    id: 3,
+    name: "Don Sumdany",
+    title: "Co-founder and CEO",
+    image: "/public/images/testimonial-1.svg",
+    message:
+      " We chose appinventiv to build our financial literacy and money management app from start to finish. From the first call, we were very impressed with appinventiv’s professionalism, expertise, and commitment to delivering top-notch results. Their team was very responsive and was always available to answer any questions we had. Their developers were extremely talented and delivered an amazing final product that exceeded our expectations. Our app is now live, and the feedback that we are receiving from users is fantastic. So, i highly recommend appinventiv to anyone looking for a partner to bring their app ideas to life.",
+  },
+  {
+    id: 4,
+    name: "David Smith",
+    title: "Co-founder and CEO",
+    image: "/public/images/testimonial-1.svg",
+    message:
+      "We chose appinventiv to build our financial literacy and money management app from start to finish. From the first call, we were very impressed with appinventiv’s professionalism, expertise, and commitment to delivering top-notch results. Their team was very responsive and was always available to answer any questions we had. Their developers were extremely talented and delivered an amazing final product that exceeded our expectations. Our app is now live, and the feedback that we are receiving from users is fantastic. So, i highly recommend appinventiv to anyone looking for a partner to bring their app ideas to life.",
+  },
+];
