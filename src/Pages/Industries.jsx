@@ -1,4 +1,5 @@
 import React from "react";
+import Brand from "../Components/Brand";
 import Awards from "../Components/Industries/Awards";
 import ClientsSection from "../Components/Industries/ClientsSection";
 import FeaturesList from "../Components/Industries/FeaturesList";
@@ -26,6 +27,8 @@ const IndustriesPage = () => {
       <IndustriesTestimonials />
       <IndustriesAcrossGlobe />
       <Awards />
+      <Brand />
+
     </>
   );
 };

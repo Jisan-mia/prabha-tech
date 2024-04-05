@@ -1,0 +1,125 @@
+.partnerus {
+  padding: 80px 0;
+  background-image: url('/images/partner-us.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 80px);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.partnerus__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  height: 100%;
+  z-index: 1;
+}
+
+.partnerus__content h2 {
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 56px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.floating__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  transition: all 0.1s ease 0s;
+  animation-name: floating;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  padding: 10px
+}
+
+.floating__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.floating__logo::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: 0px 0px;
+  /* backdrop-filter: blur(15px); */
+  position: absolute;
+  border: 1px solid rgb(112, 112, 112);
+  text-align: center;
+}
+
+.floating__logo-1 {
+  top: 100px;
+  left: 150px;
+  width: 112px;
+  height: 112px;
+}
+
+
+.floating__logo-2 {
+  bottom: 204px;
+  left: 200px;
+  width: 90px;
+  height: 90px;
+}
+
+.floating__logo-3 {
+  bottom: 120px;
+  left: 330px;
+  width: 46px;
+  height: 45px;
+}
+
+.floating__logo-4 {
+  top: 117px;
+  right: 220px;
+  width: 46px;
+  height: 45px;
+}
+
+.floating__logo-5 {
+  top: 200px;
+  right: 98px;
+  width: 112px;
+  height: 112px;
+}
+
+.floating__logo-6 {
+  bottom: 100px;
+  right: 200px;
+  width: 90px;
+  height: 90px;
+}
+
+@keyframes floating {
+  25% {
+    transform: rotate(-8deg) scale(1.1) translateY(3px) translateX(8px);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: rotate(-4deg) scale(1.1) translateY(3px) translateX(10px);
+    opacity: 0.9;
+  }
+
+  75% {
+    transform: rotate(8deg) scale(1.3) translateY(8px) translateX(17px);
+    opacity: 1;
+  }
+}
