@@ -1,17 +1,29 @@
 import React, { useState } from "react";
-import "../Components/Carousel.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import "../Components/Carousel.css";
+import { allHomeTestimonialData } from "./Industries/data";
 import Vision from "./Vision";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/a11y";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
+
+// import required modules
+import { A11y, FreeMode, Navigation, Pagination } from "swiper/modules";
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const swiper = useSwiper();
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 2 ? 0 : prevIndex + 1)); // Assuming you have 3 cbox cards
+    // setCurrentIndex((prevIndex) => (prevIndex === 2 ? 0 : prevIndex + 1)); // Assuming you have 3 cbox cards
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? 2 : prevIndex - 1)); // Assuming you have 3 cbox cards
+    // setCurrentIndex((prevIndex) => (prevIndex === 0 ? 2 : prevIndex - 1)); // Assuming you have 3 cbox cards
   };
 
   return (
@@ -31,62 +43,73 @@ const Carousel = () => {
         </div>
 
         <div className="carobox">
-          <div
-            className="cbox"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          <Swiper
+            loop={true}
+            slidesPerView={'auto'}
+            modules={[Pagination, FreeMode, A11y, Navigation]}
+            centeredSlides={true}
+            className="mySwiper"
+            freeMode={true}
+            spaceBetween={50}
+             navigation={{
+    nextEl: '.swiper-button-next1',
+    prevEl: '.swiper-button-prev1',
+  }}
           >
-            {/* Assuming you have 3 cbox cards */}
-            <div className="context">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a,
-                placeat nesciunt, voluptatum sapiente corrupti distinctio itaque
-                consequatur velit recusandae laudantium officiis optio
-                exercitationem! Omnis necessitatibus nostrum provident beatae ut
-                quae voluptatem ullam architecto, rem at quasi quia iste hic ab
-                debitis numquam fugiat, praesentium molestiae reprehenderit
-                voluptas molestias perspiciatis.
-              </p>
+            {allHomeTestimonialData.map((item) => {
+              return (
+                <>
+                  <SwiperSlide key={item.id}>
+                    <CarouselItem item={item} />
+                  </SwiperSlide>
+                </>
+              );
+            })}
+            <div className="carobtn">
+              <button className="swiper-button-prev1" >
+                <GrPrevious />
+              </button>
+              <button className="swiper-button-next1" >
+                <GrNext />
+              </button>
             </div>
-
-            <div className="border"></div>
-
-            <div className="userd">
-              <div className="useimg">
-                <img
-                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt=""
-                />
-                <div className="userboi">
-                  <h4>Neeraj Tiwari</h4>
-                  <h4>Director- Digital Engineering</h4>
-                  <h4>Americana Group (Kuwait Food Co.)</h4>
-                </div>
-              </div>
-              <div className="usercom">
-                <img
-                  src="https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/friday-logo-color.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-
-
-          </div>
-
-          <div className="carobtn">
-            <button onClick={prevSlide}>
-              <GrPrevious />
-            </button>
-            <button onClick={nextSlide}>
-              <GrNext />
-            </button>
-          </div>
+          </Swiper>
         </div>
       </div>
 
-      <Vision/>
+      <Vision />
     </>
   );
 };
 
 export default Carousel;
+
+const CarouselItem = ({ item, currentIndex }) => {
+  return (
+    <div
+      className="cbox"
+      style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+    >
+      {/* Assuming you have 3 cbox cards */}
+      <div className="context">
+        <p>{item.detail}</p>
+      </div>
+
+      <div className="border"></div>
+
+      <div className="userd">
+        <div className="useimg">
+          <img src={item.userImage} alt="" />
+          <div className="userboi">
+            <h4>{item.userName}</h4>
+            <h4>{item.userTitle}</h4>
+            <h4>{item.userCompany}</h4>
+          </div>
+        </div>
+        <div className="usercom">
+          <img src={item.userCompanyImage} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};

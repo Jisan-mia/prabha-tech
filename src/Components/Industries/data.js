@@ -595,3 +595,39 @@ export const allIndustryAnimationPhoto = [
     image: "/images/industry/industry-healthcare.webp",
   },
 ];
+
+export const allHomeTestimonialData = [
+  {
+    id: 1,
+    detail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a, placeat nesciunt, voluptatum sapiente corrupti distinctio itaque consequatur velit recusandae laudantium officiis optio exercitationem! Omnis necessitatibus nostrum provident beatae ut quae voluptatem ullam architecto, rem at quasi quia iste hic ab debitis numquam fugiat, praesentium molestiae reprehenderit voluptas molestias perspiciatis.",
+    userImage:
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    userName: "Neeraj Tiwari",
+    userTitle: "Director- Digital Engineering",
+    userCompany: "Americana Group (Kuwait Food Co.)",
+    userCompanyImage: 'https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/friday-logo-color.svg'
+  },
+  {
+    id: 2,
+    detail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a, placeat nesciunt, voluptatum sapiente corrupti distinctio itaque consequatur velit recusandae laudantium officiis optio exercitationem! Omnis necessitatibus nostrum provident beatae ut quae voluptatem ullam architecto, rem at quasi quia iste hic ab debitis numquam fugiat, praesentium molestiae reprehenderit voluptas molestias perspiciatis.",
+    userImage:
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    userName: "Neeraj Tiwari",
+    userTitle: "Director- Digital Engineering",
+    userCompany: "Americana Group (Kuwait Food Co.)",
+    userCompanyImage: 'https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/friday-logo-color.svg'
+  },
+  {
+    id: 3,
+    detail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam a, placeat nesciunt, voluptatum sapiente corrupti distinctio itaque consequatur velit recusandae laudantium officiis optio exercitationem! Omnis necessitatibus nostrum provident beatae ut quae voluptatem ullam architecto, rem at quasi quia iste hic ab debitis numquam fugiat, praesentium molestiae reprehenderit voluptas molestias perspiciatis.",
+    userImage:
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    userName: "Neeraj Tiwari",
+    userTitle: "Director- Digital Engineering",
+    userCompany: "Americana Group (Kuwait Food Co.)",
+    userCompanyImage: 'https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/friday-logo-color.svg'
+  },
+];

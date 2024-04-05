@@ -88,13 +88,13 @@
   color: white;
 }
 
-.swiper {
+.testimonials__carousel .swiper {
   width: 100%;
   height: 320px;
 }
 
 
-.swiper-pagination-bullet {
+.testimonials__carousel .swiper-pagination-bullet {
   width: 40px;
   height: 3px;
   color: #ffffff;
@@ -103,7 +103,7 @@
   border-radius: 8px;
 }
 
-.swiper-pagination-bullet-active {
+.testimonials__carousel .swiper-pagination-bullet-active {
   color: #fff;
   background: #115dfb;
 }
