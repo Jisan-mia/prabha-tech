@@ -562,3 +562,36 @@ export const allScrollableClients = [
     ],
   },
 ];
+
+export const allIndustryAnimationPhoto = [
+  {
+    id: 1,
+    name: "FinTech",
+    image: "/images/industry/industry-fintech.webp",
+  },
+  {
+    id: 2,
+    name: "Blockchain",
+    image: "/images/industry/industry-blockchain.webp",
+  },
+  {
+    id: 3,
+    name: "Food",
+    image: "/images/industry/industry-Food.webp",
+  },
+  {
+    id: 4,
+    name: "eCommerce",
+    image: "/images/industry/industry-ecommerce.webp",
+  },
+  {
+    id: 5,
+    name: "EV",
+    image: "/images/industry/industry-EV.webp",
+  },
+  {
+    id: 6,
+    name: "Healthcare",
+    image: "/images/industry/industry-healthcare.webp",
+  },
+];

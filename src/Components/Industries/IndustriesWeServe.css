@@ -33,13 +33,14 @@
 .served__industries-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  column-gap: 3.5rem;
-  row-gap: 3.5rem;
+  column-gap: 5rem;
+  row-gap: 4rem;
 }
 
 .served__industries-list-item {
   display: grid;
   gap: 1.5rem;
+  width: 100%;
 }
 
 .served__industries-list-item .titles {
@@ -66,13 +67,16 @@
 
 .served__industries-list-item .img-cont {
   overflow: hidden;
-  width: max-content;
+  width: 100%;
   border-radius: 10px;
   display: flex;
 }
 
 .served__industries-list-item .img-cont img {
   transition: all 0.3s ease-in;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .served__industries-list-item .img-cont img:hover {
