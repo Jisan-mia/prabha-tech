@@ -1,6 +1,6 @@
 import React from "react";
-import ClientsScrollItem from "./ClientsScrollItem";
 import './ClientsSection.css';
+import { default as Example } from "./HorizontalScroll";
 const ClientsSection = () => {
   return (
     <div className="clients__section">
@@ -20,8 +20,9 @@ const ClientsSection = () => {
         </div>
 
 
+        <Example />
         <div className="client__section-container">
-          <ClientsScrollItem />
+          {/* <HorizontalScrollCarousel /> */}
         </div>
 
 

@@ -1,0 +1,42 @@
+.horizontal__scroll {
+  position: relative;
+  height: 300vh;
+}
+
+.horizontal__scroll-content {
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+
+.horizontal__scroll-item {
+  display: flex;
+  gap: 1rem;
+  padding-top: 180px;
+}
+
+.horizontal__scroll-card {
+  position: relative;
+  height: 100vh;
+  width: calc(100vw - 290px);
+  overflow: hidden;
+}
+
+.horizontal__scroll-card-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  transition: transform 0.3s ease-in;
+
+}
+
+.horizontal__scroll-card-content {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-content: center;
+}

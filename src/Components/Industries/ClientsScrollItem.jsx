@@ -1,26 +1,23 @@
 import React from "react";
 import "./ClientsSection.css";
-const ClientsScrollItem = () => {
+const ClientsScrollItem = ({ item }) => {
   return (
     <div className="client__list-item">
       {/* left side */}
       <div className="client__list-item-left">
         <div>
-          <img src="/images/client-logo-1.svg" alt="" />
+          <img src={item.logo} alt="" />
         </div>
-        <p>
-          We developed a voice-assistant app optimized for bluetooth wearables
-          for social media experiences on the go. Results?
-        </p>
+        <p>{item.description}</p>
         <div className="client__success">
-          <div className="client__success-item">
-            <h3>$1 Million</h3>
-            <p>Funding Received</p>
-          </div>
-          <div className="client__success-item">
-            <h3>50K+</h3>
-            <p>Mobile App Downloads</p>
-          </div>
+          {item.clientAchievement.map((aItem) => {
+            return (
+              <div key={aItem.title} className="client__success-item">
+                <h3>{aItem.title}</h3>
+                <p>{aItem.detail}</p>
+              </div>
+            );
+          })}
         </div>
         <div>
           <button className="primary-button">Read Case Study</button>
@@ -28,7 +25,7 @@ const ClientsScrollItem = () => {
       </div>
       {/* right side */}
       <div className="client__list-item-right">
-        <img src="/images/client-1.webp" alt="" />
+        <img src={item.image} alt="" />
       </div>
     </div>
   );

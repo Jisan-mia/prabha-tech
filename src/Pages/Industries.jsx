@@ -28,7 +28,6 @@ const IndustriesPage = () => {
       <IndustriesAcrossGlobe />
       <Awards />
       <Brand />
-
     </>
   );
 };

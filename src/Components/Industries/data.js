@@ -507,3 +507,58 @@ export const allOtherPortfolio = [
       "A fully-functional mobile app with an extensible and scalable architecture paved the way for a speedy and glitch-free user experience.",
   },
 ];
+
+
+export const allScrollableClients = [
+  {
+    id: 1,
+    logo: "/images/client-logo-1.svg",
+    image: "/images/client-1.webp",
+    description:
+      "We developed a voice-assistant app optimized for bluetooth wearables for social media experiences on the go. Results?",
+    clientAchievement: [
+      {
+        title: "$1 Million",
+        detail: "Funding Received",
+      },
+      {
+        title: "50K",
+        detail: "Mobile App Downloads",
+      },
+    ],
+  },
+  {
+    id: 2,
+    logo: "/images/client-logo-1.svg",
+    image: "/images/client-1.webp",
+    description:
+      "We developed a voice-assistant app optimized for bluetooth wearables for social media experiences on the go. Results?",
+    clientAchievement: [
+      {
+        title: "$1 Million",
+        detail: "Funding Received",
+      },
+      {
+        title: "50K",
+        detail: "Mobile App Downloads",
+      },
+    ],
+  },
+  {
+    id: 3,
+    logo: "/images/client-logo-1.svg",
+    image: "/images/client-1.webp",
+    description:
+      "We developed a voice-assistant app optimized for bluetooth wearables for social media experiences on the go. Results?",
+    clientAchievement: [
+      {
+        title: "$1 Million",
+        detail: "Funding Received",
+      },
+      {
+        title: "50K",
+        detail: "Mobile App Downloads",
+      },
+    ],
+  },
+];
